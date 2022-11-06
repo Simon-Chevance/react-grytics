@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schevance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61144c8f2d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href="schevance.fr"><img src="images/schevance.png" class="logo"></a>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web designer | Front Developer | Project Leader</p>
+            <h1>Hi, I'm <span>Simon</span><br> Chevance from France</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------------- about ------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/schevance3.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi there, my name is Simon CHEVANCE, I'm 22 years old, I am actually a master first grade student at SUPINFO.
+                    I like to learn and discover new technologies since I am very young. I am passionate about computers. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Management/Leading</span><br>Team leader for IT Projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - 2022</span><br>Internship at Eutech in Backend Web Development</li>
+                        <li><span>2021</span><br>Internship at Eutech in Web Integrating</li>
+                        <li><span>2020</span><br>Internship at GROUPE SOUFFLET in Web Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>MSC1 in progress</span><br>Supinfo</li>
+                        <li><span>BENG3</span><br>Supinfo</li>
+                        <li><span>ASC2</span><br>Supinfo</li>
+                        <li><span>ASC1</span><br>Supinfo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- ------------------services------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>During my schooling at Supinfo, I was able to follow courses in web design, mock-up, we were asked to make mock-ups for applications,
+                    websites by putting ourselves in the shoes of the user, so that the user experience is the best possible based on certain criteria.
+                    I also designed the websites and web applications for most of the projects we were asked to do.</p>
+                <!-- <a href="#">learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-person"></i>
+                <h2>Leadership</h2>
+                <p>During most of the projects I participated in during my studies,
+                    in order to prepare the latter, we had to set up a management system to see the progress
+                    of the latter by implementing an agile work method, I was the one in charge of managing the meetings,
+                    as well as all the features and user needs. We worked by iterations in order to organize our work in
+                    the most structured way. So I have good notions in team management.</p>
+                <!-- <a href="#">learn more</a> -->
+            </div>
+            <div>
+                <i class="fa-brands fa-chrome"></i>
+                <h2>Web Integrator</h2>
+                <p>During one of my internship, I realized the web integration of a tool now used by them, it was a site allowing the control of the versions of their various web applications.</p>
+                <!-- <a href="#">learn more</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------portfolio------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/bandicoot.jpg">
+                <div class="layer">
+                    <h3>Remake Crash Bandicoot</h3>
+                    <p>At the end of my first year of study at Supinfo,
+                        we were asked to remake a world famous video game, Crash Bandicoot in group.
+                        For that, we had to use Unity, the C# language and we had to realize the graphics in pixel art.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/doctolib.jpg">
+                <div class="layer">
+                    <h3>Platform for making appointments</h3>
+                    <p>At the end of my 2nd year of study at Supinfo,
+                        we were asked in group to create an appointment scheduling platform,
+                        similar to doctolib.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/logo-drive.png">
+                <div class="layer">
+                    <h3>iDrive</h3>
+                    <p>At the end of my 3rd year of study at Supinfo,
+                        we were asked in group to create a cloud storage platform, similar to iCloud,
+                        Drive or any other cloud storage platform.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------------- contact ------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="mailto:contact@schevance.fr"><i class="fas fa-paper-plane"></i>contact@schevance.fr</p></a>
+                <p><i class="fas fa-phone-square-alt"></i>0781877656</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/simon-chevance-545031197/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/SimonChevance"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/Simon-Chevance"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                <!-- <a href="images/CL.pdf" download class="">Download CoverLetter</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" disabled>
+                    <input type="email" name="Email" placeholder="Your Email" disabled>
+                    <textarea name="Message" rows="6" placeholder="Your Message" disabled></textarea>
+                    <button type="submit" class="btn btn2" disabled>Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>2022 Copyright ©schevance</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwqeqnzX4VL_GuU97NlP661TBgyD-tQbRx__icrfIvihNNWcQvhZMLhes_XRFjI84M/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
