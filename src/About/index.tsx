@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useState } from "react";
 
 function About(){
     const [selected, setSelected] = useState(1);
@@ -7,7 +7,7 @@ function About(){
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img alt="schevance" src="../../img/schevance3.jpg"/>
+                        <img alt="schevance" src={require('../img/schevance3.jpg')}/>
                     </div>
                     <div className="about-col-2">
                         <h1 className="sub-title">About Me</h1>

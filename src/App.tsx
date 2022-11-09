@@ -4,6 +4,9 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Contact from "./Contact";
+import Articles from "./Articles";
+import Footer from "./Footer";
+
 
 function App(){
     return(
@@ -13,6 +16,8 @@ function App(){
             <Services/>
             <Portfolio/>
             <Contact/>
+            <Articles/>
+            <Footer/>
         </div>
     )
 }
